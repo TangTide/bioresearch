@@ -3,10 +3,9 @@ import http.client
 
 http.client.HTTPConnection._http_vsn = 10
 http.client.HTTPConnection._http_vsn_str = 'HTTP/1.0'
-Entrez.email="tangtide1@tangtide.com"
-Entrez.api_key="6710abb71acd59b3d7a7fa0e15b39cd02b09"
-# Entrez.email = "abc@exampl.com"  # 你的邮箱
-# Entrez.api_key = "6710abb71acd59a5d7a7fh6f15b39cd02b09"  # 你的API
+
+Entrez.email = "abc@exampl.com"  # 你的邮箱
+Entrez.api_key = "6710abb71acd59a5d7a7fh6f15b39cd02b09"  # 你的API
 mindate_ = "2013/1/1"  # 论文的时间跨度
 maxdate_ = "2016/12/31"
 filename = "pubmed2013-2016.txt"#保存的文件名
