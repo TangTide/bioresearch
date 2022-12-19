@@ -22,7 +22,7 @@ search_results = Entrez.read(
 count = int(search_results["Count"])
 print("Found %i results" % count)
 batch_size = 2000  # 单次下载的文章数，可依据自身网速调整
-out_handle = open("filename", 'w', encoding='utf-8')
+out_handle = open(filename, 'w', encoding='utf-8')
 for start in range(0, count, batch_size):
     end = min(count, start + batch_size)
     print("Going to download record %i to %i" % (start + 1, end))
