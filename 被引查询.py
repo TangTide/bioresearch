@@ -1,7 +1,7 @@
 from Bio import Entrez
 
-Entrez.email = "tangtide1@tangtide.com"
-Entrez.api_key = "6710abb71acd59b3d7a7fa0e15b39cd02b09"
+Entrez.email = ""
+Entrez.api_key = ""
 ids = [29845521]
 ida = []
 for id1 in ids:
